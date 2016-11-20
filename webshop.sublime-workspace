@@ -8,67 +8,58 @@
 	"buffers":
 	[
 		{
-			"file": "project-webshop/ember-cli-build.js",
+			"file": "project-webshop/serverside/app/server.js",
 			"settings":
 			{
-				"buffer_size": 311,
+				"buffer_size": 889,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows",
+				"name": "var express = require('express');"
 			}
 		},
 		{
-			"file": "project-webshop/app/templates/application.hbs",
+			"file": "project-webshop/serverside/routes/routes.js",
 			"settings":
 			{
-				"buffer_size": 1622,
+				"buffer_size": 895,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "project-webshop/app/templates/item/new.hbs",
+			"file": "project-webshop/serverside/models/item.js",
 			"settings":
 			{
-				"buffer_size": 510,
+				"buffer_size": 1491,
 				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "<form>"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "project-webshop/app/controllers/item/new.js",
+			"file": "project-webshop/serverside/controllers/item.js",
 			"settings":
 			{
-				"buffer_size": 291,
+				"buffer_size": 784,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "project-webshop/app/templates/scientists.hbs",
+			"file": "project-webshop/serverside/controllers/category.js",
 			"settings":
 			{
-				"buffer_size": 107,
+				"buffer_size": 1670,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "project-webshop/app/routes/scientists.js",
+			"file": "project-webshop/serverside/models/category.js",
 			"settings":
 			{
-				"buffer_size": 140,
+				"buffer_size": 644,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "project-webshop/.ember-cli",
-			"settings":
-			{
-				"buffer_size": 302,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -105,16 +96,37 @@
 	"expanded_folders":
 	[
 		"/D/Webdev/webshop/project-webshop",
-		"/D/Webdev/webshop/project-webshop/app",
-		"/D/Webdev/webshop/project-webshop/app/controllers",
-		"/D/Webdev/webshop/project-webshop/app/controllers/item",
-		"/D/Webdev/webshop/project-webshop/app/templates",
-		"/D/Webdev/webshop/project-webshop/app/templates/item"
+		"/D/Webdev/webshop/project-webshop/app/templates/components",
+		"/D/Webdev/webshop/project-webshop/serverside",
+		"/D/Webdev/webshop/project-webshop/serverside/app",
+		"/D/Webdev/webshop/project-webshop/serverside/config",
+		"/D/Webdev/webshop/project-webshop/serverside/controllers",
+		"/D/Webdev/webshop/project-webshop/serverside/models",
+		"/D/Webdev/webshop/project-webshop/serverside/routes"
 	],
 	"file_history":
 	[
+		"/D/example 1day/1dayaway_project/service/source/routes/routes.js",
+		"/D/Webdev/webshop/project-webshop/serverside/config/config.js",
+		"/D/example 1day/1dayaway_project/service/source/imports/filetools.js",
+		"/D/Webdev/webshop/project-webshop/serverside/controllers/category.js",
+		"/D/example 1day/1dayaway_project/service/source/controllers/activity.js",
+		"/D/Webdev/webshop/project-webshop/serverside/models/category.js",
+		"/D/example 1day/1dayaway_project/service/source/models/activity.js",
+		"/D/example 1day/1dayaway_project/service/source/imports/validator.js",
+		"/D/Webdev/webshop/project-webshop/serverside/imports/querytools.js",
+		"/D/Webdev/webshop/project-webshop/serverside/imports/datechecker.js",
+		"/D/Webdev/webshop/project-webshop/serverside/imports/filetools.js",
+		"/D/example 1day/1dayaway_project/service/source/app.js",
+		"/D/Webdev/webshop/project-webshop/serverside/routes/routes.js",
+		"/D/Webdev/webshop/project-webshop/serverside/app/app.js",
+		"/D/Webdev/webshop/project-webshop/.ember-cli",
+		"/D/Webdev/webshop/project-webshop/app/routes/scientists.js",
+		"/D/Webdev/webshop/project-webshop/app/templates/scientists.hbs",
+		"/D/Webdev/webshop/project-webshop/app/controllers/item/new.js",
 		"/D/Webdev/webshop/project-webshop/app/templates/item/new.hbs",
-		"/D/Webdev/webshop/project-webshop/app/templates/scientists.hbs"
+		"/D/Webdev/webshop/project-webshop/app/templates/application.hbs",
+		"/D/Webdev/webshop/project-webshop/ember-cli-build.js"
 	],
 	"find":
 	{
@@ -132,6 +144,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"path",
 			"navbar",
 			"navbar-nav",
 			"ul"
@@ -152,112 +165,53 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "project-webshop/ember-cli-build.js",
+					"file": "project-webshop/serverside/app/server.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 311,
+						"buffer_size": 889,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								215,
-								215
+								496,
+								496
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "var express = require('express');",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "project-webshop/app/templates/application.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1622,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1272,
-								1272
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 405.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "project-webshop/app/templates/item/new.hbs",
+					"buffer": 1,
+					"file": "project-webshop/serverside/routes/routes.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 510,
+						"buffer_size": 895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								332,
-								332
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<form>",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "project-webshop/app/controllers/item/new.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 291,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								291,
-								291
+								506,
+								506
 							]
 						],
 						"settings":
@@ -272,25 +226,53 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "project-webshop/app/templates/scientists.hbs",
+					"buffer": 2,
+					"file": "project-webshop/serverside/models/item.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 107,
+						"buffer_size": 1491,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								986,
+								986
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "project-webshop/serverside/controllers/item.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								784,
+								784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -300,20 +282,49 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "project-webshop/app/routes/scientists.js",
+					"buffer": 4,
+					"file": "project-webshop/serverside/controllers/category.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 140,
+						"buffer_size": 1670,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "project-webshop/serverside/models/category.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								502,
+								502
 							]
 						],
 						"settings":
@@ -325,34 +336,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "project-webshop/.ember-cli",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 302,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								299,
-								299
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
